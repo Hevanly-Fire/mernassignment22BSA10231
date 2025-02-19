@@ -1,0 +1,24 @@
+table {
+    border-collapse: separate; /* Ensures individual cell borders */
+    border-spacing: 5px; /* Adds spacing between cells */
+    width: 80%;
+    margin: auto;
+    background-color: #f2f2f2; /* Light gray background for the table */
+    border: 3px solid black;
+    border-radius: 15px; /* Rounded corners for the table */
+    padding: 10px;
+}
+
+th, td {
+    border: 2px solid black; /* Border for each cell */
+    padding: 10px; /* Space inside cells */
+    border-radius: 10px; /* Rounded corners */
+    text-align: left;
+    background-color: white; /* White background for table cells */
+}
+
+/* Optional: Style table headers differently */
+th {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+}
